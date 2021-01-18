@@ -1,12 +1,13 @@
 def func():
     pokedex = {}
     
-    pokemon = (
-        ('venosaur', 'grass, poison'),
-        ('charizard,', 'fire, flying'),
-        ('blastoise', 'water'),
-    )
-    pokedex = dict(pokemon)
+    pokedex = {
+        'venosaur':'grass, poison',
+        'charizard':'fire, flying',
+        'blastoise':'water',
+    }
+    print(pokedex)
+    del pokedex['blastoise']
     print(pokedex)
 
 
