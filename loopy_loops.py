@@ -24,7 +24,7 @@ def func():
         
     stringy = "This is a simple string"
     x = 0
-    for x in range(23):
+    for x in range(len(stringy)):
         print(stringy[x])
         x += 1
     print("done")
@@ -32,7 +32,7 @@ def func():
     setty = ('this', 'is', 'a', 'simple', 'set')
     index = 0
     times = 0
-    for index in range(5):
+    for index in range(len(setty)):
         times = 0
         while times < 3:
             print(setty[index])
