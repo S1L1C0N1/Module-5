@@ -1,10 +1,13 @@
 def func():
     pokedex = {}
-    dict = {'Name': 'venosaur', 'Class': 'grass, poison'}
-    dict = {'Name': 'charizard', 'Class': 'fire, flying'}
-    dict = {'Name': 'blastoise', 'Class': 'water'}
-    print("dict['Name']: ", dict['Name'])
-    print("dict['Class']: ", dict['Class'])
+    
+    pokemon = (
+        ('venosaur', 'grass, poison'),
+        ('charizard,', 'fire, flying'),
+        ('blastoise', 'water'),
+    )
+    pokedex = dict(pokemon)
+    print(pokedex)
 
 
 
