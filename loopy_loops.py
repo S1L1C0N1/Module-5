@@ -39,11 +39,6 @@ def func():
             times += 1
         index += 1
     print("done")
-            
-            
-        
-
-
 
 if __name__ == "__main__":
     func()
